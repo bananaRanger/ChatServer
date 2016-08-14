@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD4D6941D60A99600938AFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6931D60A99600938AFE /* AppDelegate.m */; };
+		EAD4D6971D60A99600938AFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6961D60A99600938AFE /* main.m */; };
+		EAD4D69A1D60A99600938AFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6991D60A99600938AFE /* ViewController.m */; };
+		EAD4D69C1D60A99600938AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD4D69B1D60A99600938AFE /* Assets.xcassets */; };
+		EAD4D69F1D60A99600938AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD4D69D1D60A99600938AFE /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAD4D68F1D60A99600938AFE /* ChatServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD4D6921D60A99600938AFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAD4D6931D60A99600938AFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAD4D6961D60A99600938AFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAD4D6981D60A99600938AFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAD4D6991D60A99600938AFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAD4D69B1D60A99600938AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAD4D69E1D60A99600938AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD4D6A01D60A99600938AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD4D68C1D60A99600938AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD4D6861D60A99600938AFE = {
+			isa = PBXGroup;
+			children = (
+				EAD4D6911D60A99600938AFE /* ChatServer */,
+				EAD4D6901D60A99600938AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD4D6901D60A99600938AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4D68F1D60A99600938AFE /* ChatServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD4D6911D60A99600938AFE /* ChatServer */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4D6921D60A99600938AFE /* AppDelegate.h */,
+				EAD4D6931D60A99600938AFE /* AppDelegate.m */,
+				EAD4D6981D60A99600938AFE /* ViewController.h */,
+				EAD4D6991D60A99600938AFE /* ViewController.m */,
+				EAD4D69B1D60A99600938AFE /* Assets.xcassets */,
+				EAD4D69D1D60A99600938AFE /* Main.storyboard */,
+				EAD4D6A01D60A99600938AFE /* Info.plist */,
+				EAD4D6951D60A99600938AFE /* Supporting Files */,
+			);
+			path = ChatServer;
+			sourceTree = "<group>";
+		};
+		EAD4D6951D60A99600938AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4D6961D60A99600938AFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD4D68E1D60A99600938AFE /* ChatServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD4D6A31D60A99600938AFE /* Build configuration list for PBXNativeTarget "ChatServer" */;
+			buildPhases = (
+				EAD4D68B1D60A99600938AFE /* Sources */,
+				EAD4D68C1D60A99600938AFE /* Frameworks */,
+				EAD4D68D1D60A99600938AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatServer;
+			productName = ChatServer;
+			productReference = EAD4D68F1D60A99600938AFE /* ChatServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD4D6871D60A99600938AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Anthony;
+				TargetAttributes = {
+					EAD4D68E1D60A99600938AFE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EAD4D68A1D60A99600938AFE /* Build configuration list for PBXProject "ChatServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD4D6861D60A99600938AFE;
+			productRefGroup = EAD4D6901D60A99600938AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD4D68E1D60A99600938AFE /* ChatServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD4D68D1D60A99600938AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD4D69C1D60A99600938AFE /* Assets.xcassets in Resources */,
+				EAD4D69F1D60A99600938AFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD4D68B1D60A99600938AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD4D69A1D60A99600938AFE /* ViewController.m in Sources */,
+				EAD4D6971D60A99600938AFE /* main.m in Sources */,
+				EAD4D6941D60A99600938AFE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAD4D69D1D60A99600938AFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD4D69E1D60A99600938AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD4D6A11D60A99600938AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EAD4D6A21D60A99600938AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EAD4D6A41D60A99600938AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChatServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.ChatServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD4D6A51D60A99600938AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChatServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.projects.ChatServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD4D68A1D60A99600938AFE /* Build configuration list for PBXProject "ChatServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD4D6A11D60A99600938AFE /* Debug */,
+				EAD4D6A21D60A99600938AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD4D6A31D60A99600938AFE /* Build configuration list for PBXNativeTarget "ChatServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD4D6A41D60A99600938AFE /* Debug */,
+				EAD4D6A51D60A99600938AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD4D6871D60A99600938AFE /* Project object */;
+}
