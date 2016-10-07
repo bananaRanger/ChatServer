@@ -12,6 +12,10 @@
 		EAD4D69A1D60A99600938AFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6991D60A99600938AFE /* ViewController.m */; };
 		EAD4D69C1D60A99600938AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD4D69B1D60A99600938AFE /* Assets.xcassets */; };
 		EAD4D69F1D60A99600938AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD4D69D1D60A99600938AFE /* Main.storyboard */; };
+		EAD4D6A81D60AA1B00938AFE /* CSDataProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6A71D60AA1B00938AFE /* CSDataProtocol.m */; };
+		EAD4D6AB1D60AA6A00938AFE /* CSHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6AA1D60AA6A00938AFE /* CSHeaderView.m */; };
+		EAD4D6AE1D60AAA000938AFE /* CSReadWriteThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6AD1D60AAA000938AFE /* CSReadWriteThread.m */; };
+		EAD4D6B21D60AAE300938AFE /* CSServerThread.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD4D6B11D60AAE300938AFE /* CSServerThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,16 @@
 		EAD4D69B1D60A99600938AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD4D69E1D60A99600938AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD4D6A01D60A99600938AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD4D6A61D60AA1B00938AFE /* CSDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDataProtocol.h; sourceTree = "<group>"; };
+		EAD4D6A71D60AA1B00938AFE /* CSDataProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDataProtocol.m; sourceTree = "<group>"; };
+		EAD4D6A91D60AA6A00938AFE /* CSHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHeaderView.h; sourceTree = "<group>"; };
+		EAD4D6AA1D60AA6A00938AFE /* CSHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHeaderView.m; sourceTree = "<group>"; };
+		EAD4D6AC1D60AAA000938AFE /* CSReadWriteThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSReadWriteThread.h; sourceTree = "<group>"; };
+		EAD4D6AD1D60AAA000938AFE /* CSReadWriteThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSReadWriteThread.m; sourceTree = "<group>"; };
+		EAD4D6AF1D60AACA00938AFE /* CSReadWriteThreadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSReadWriteThreadDelegate.h; sourceTree = "<group>"; };
+		EAD4D6B01D60AAE300938AFE /* CSServerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServerThread.h; sourceTree = "<group>"; };
+		EAD4D6B11D60AAE300938AFE /* CSServerThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServerThread.m; sourceTree = "<group>"; };
+		EAD4D6B31D60AB0F00938AFE /* CSServerThreadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServerThreadDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,10 @@
 		EAD4D6911D60A99600938AFE /* ChatServer */ = {
 			isa = PBXGroup;
 			children = (
+				EAD4D6B51D60AB4200938AFE /* HeaderView */,
+				EAD4D6B41D60AB3900938AFE /* DataProtocol */,
+				EAD4D6B71D60AB5700938AFE /* ServerThread */,
+				EAD4D6B61D60AB4B00938AFE /* ReadWriteThread */,
 				EAD4D6921D60A99600938AFE /* AppDelegate.h */,
 				EAD4D6931D60A99600938AFE /* AppDelegate.m */,
 				EAD4D6981D60A99600938AFE /* ViewController.h */,
@@ -74,6 +92,44 @@
 				EAD4D6961D60A99600938AFE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAD4D6B41D60AB3900938AFE /* DataProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4D6A61D60AA1B00938AFE /* CSDataProtocol.h */,
+				EAD4D6A71D60AA1B00938AFE /* CSDataProtocol.m */,
+			);
+			name = DataProtocol;
+			sourceTree = "<group>";
+		};
+		EAD4D6B51D60AB4200938AFE /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4D6A91D60AA6A00938AFE /* CSHeaderView.h */,
+				EAD4D6AA1D60AA6A00938AFE /* CSHeaderView.m */,
+			);
+			name = HeaderView;
+			sourceTree = "<group>";
+		};
+		EAD4D6B61D60AB4B00938AFE /* ReadWriteThread */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4D6AF1D60AACA00938AFE /* CSReadWriteThreadDelegate.h */,
+				EAD4D6AC1D60AAA000938AFE /* CSReadWriteThread.h */,
+				EAD4D6AD1D60AAA000938AFE /* CSReadWriteThread.m */,
+			);
+			name = ReadWriteThread;
+			sourceTree = "<group>";
+		};
+		EAD4D6B71D60AB5700938AFE /* ServerThread */ = {
+			isa = PBXGroup;
+			children = (
+				EAD4D6B31D60AB0F00938AFE /* CSServerThreadDelegate.h */,
+				EAD4D6B01D60AAE300938AFE /* CSServerThread.h */,
+				EAD4D6B11D60AAE300938AFE /* CSServerThread.m */,
+			);
+			name = ServerThread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAD4D69A1D60A99600938AFE /* ViewController.m in Sources */,
+				EAD4D6A81D60AA1B00938AFE /* CSDataProtocol.m in Sources */,
 				EAD4D6971D60A99600938AFE /* main.m in Sources */,
+				EAD4D6AE1D60AAA000938AFE /* CSReadWriteThread.m in Sources */,
+				EAD4D6AB1D60AA6A00938AFE /* CSHeaderView.m in Sources */,
+				EAD4D6B21D60AAE300938AFE /* CSServerThread.m in Sources */,
 				EAD4D6941D60A99600938AFE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
